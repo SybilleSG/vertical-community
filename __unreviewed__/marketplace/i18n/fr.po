@@ -19,7 +19,7 @@ msgstr ""
 
 #. module: marketplace
 #: field:marketplace.announcement.currency,company_commission:0
-msgid "% company commission"
+msgid "% company's commission"
 msgstr "% commission pour la société"
 
 #. module: marketplace
@@ -29,23 +29,23 @@ msgstr "% pour la société"
 
 #. module: marketplace
 #: field:marketplace.proposition,call_moderator_announcer:0
-msgid "(Announcer) I want to Call moderator?"
-msgstr ""
+msgid "(Announcer) Call moderator"
+msgstr "(Annonceur) Appeler le modérateur"
 
 #. module: marketplace
 #: field:marketplace.proposition,want_cancel_announcer:0
-msgid "(Announcer) I want to cancel the transaction"
-msgstr "(Annonceur) Je veux annuler la transaction"
+msgid "(Announcer) Cancel the transaction"
+msgstr "(Annonceur) Annuler la transaction"
 
 #. module: marketplace
 #: field:marketplace.proposition,call_moderator_user:0
-msgid "(Replyer) I want to call moderator?"
-msgstr ""
+msgid "(Replyer) Call moderator"
+msgstr "(Répondeur) Appeler le modérateur"
 
 #. module: marketplace
 #: field:marketplace.proposition,want_cancel_user:0
-msgid "(Replyer) I want to cancel the transaction"
-msgstr ""
+msgid "(Replyer) Cancel the transaction"
+msgstr "(Répondeur) Annuler la transaction"
 
 #. module: marketplace
 #: view:marketplace.proposition:0
@@ -55,7 +55,7 @@ msgstr "Accepter"
 #. module: marketplace
 #: selection:marketplace.proposition,state:0
 msgid "Accepted"
-msgstr "Accepté"
+msgstr "Acceptée"
 
 #. module: marketplace
 #: code:addons/marketplace/marketplace.py:340
@@ -63,7 +63,7 @@ msgstr "Accepté"
 #: code:addons/marketplace/marketplace.py:882
 #, python-format
 msgid "Access error!"
-msgstr ""
+msgstr "Erreur d'accès !"
 
 #. module: marketplace
 #: model:ir.model,name:marketplace.model_account_move
@@ -73,7 +73,7 @@ msgstr "Écriture comptable"
 #. module: marketplace
 #: field:marketplace.announcement.category,active:0
 msgid "Active"
-msgstr "Actif"
+msgstr "Active"
 
 #. module: marketplace
 #: model:ir.actions.act_window,name:marketplace.action_marketplace_announcement_the_market_the_offers_all
@@ -83,17 +83,17 @@ msgstr "Actif"
 #: model:ir.ui.menu,name:marketplace.menu_action_marketplace_announcement_the_market_the_wants_all
 #: model:ir.ui.menu,name:marketplace.menu_action_marketplace_the_market_transactions_all
 msgid "All"
-msgstr ""
+msgstr "Toutes"
 
 #. module: marketplace
 #: field:marketplace.proposition,already_accepted:0
 msgid "Already accepted?"
-msgstr "Déjà accepté?"
+msgstr "Déjà acceptée ?"
 
 #. module: marketplace
 #: field:marketplace.proposition,already_published:0
 msgid "Already published?"
-msgstr "Déjà publié?"
+msgstr "Déjà publiée ?"
 
 #. module: marketplace
 #: field:marketplace.announcement.currency,announcement_id:0
@@ -104,23 +104,23 @@ msgstr "Annonce"
 #: model:ir.actions.act_window,name:marketplace.action_marketplace_proposition_my_market_as_bringer_answers_from_other
 #: model:ir.ui.menu,name:marketplace.menu_action_marketplace_proposition_my_market_as_bringer_answers_from_other
 msgid "Answers from others"
-msgstr ""
+msgstr "Réponses des autres"
 
 #. module: marketplace
 #: model:ir.actions.act_window,name:marketplace.action_marketplace_proposition_my_market_ongoing_answers_to_accept
 #: model:ir.ui.menu,name:marketplace.menu_action_marketplace_proposition_my_market_ongoing_answers_to_accept
 msgid "Answers to accept"
-msgstr ""
+msgstr "Réponses à accepter"
 
 #. module: marketplace
 #: model:ir.ui.menu,name:marketplace.menu_marketplace_my_market_as_bringer
 msgid "As Bringer"
-msgstr ""
+msgstr "Comme Apporteur"
 
 #. module: marketplace
 #: model:ir.ui.menu,name:marketplace.menu_marketplace_my_market_as_receiver
 msgid "As Receiver"
-msgstr ""
+msgstr "Comme Receveur"
 
 #. module: marketplace
 #: view:marketplace.announcement:0
@@ -130,8 +130,7 @@ msgstr "Auteur"
 #. module: marketplace
 #: field:marketplace.proposition,transaction_id:0
 msgid "Automatically created field to link to parent marketplace.transaction"
-msgstr ""
-"Automatically created field to link to parent marketplace.transaction"
+msgstr "Champ créé automatiquement pour lier avec la transaction de la place de marché"
 
 #. module: marketplace
 #: field:marketplace.announcement,quantity_available:0
@@ -141,13 +140,13 @@ msgstr "Disponible"
 
 #. module: marketplace
 #: field:res.partner.marketplace.currency,available_account:0
-msgid "Available account"
-msgstr "Compte de disponibilité"
+msgid "Available balance"
+msgstr "Solde disponibible"
 
 #. module: marketplace
 #: field:marketplace.announcement,vote_average:0
 #: field:marketplace.proposition,vote_average:0
-msgid "Average vote"
+msgid "Average votes"
 msgstr "Moyenne des votes"
 
 #. module: marketplace
@@ -176,7 +175,7 @@ msgstr "Annuler"
 #: selection:marketplace.announcement,state:0
 #: selection:marketplace.proposition,state:0
 msgid "Cancelled"
-msgstr "Annulé"
+msgstr "Annulée"
 
 #. module: marketplace
 #: view:marketplace.announcement:0
@@ -210,7 +209,7 @@ msgstr "Clôturer"
 #. module: marketplace
 #: selection:marketplace.announcement,state:0
 msgid "Closed"
-msgstr "Cloturé"
+msgstr "Clos"
 
 #. module: marketplace
 #: model:account.account.type,name:marketplace.marketplace_account_type_community
